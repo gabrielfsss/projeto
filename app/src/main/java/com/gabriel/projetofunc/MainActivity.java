@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-    //so enviar o negocio aquiaaaaaa
+    //so enviar o negocio aquiaaaaaaaasdsds
 
 
 
