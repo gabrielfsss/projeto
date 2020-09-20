@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="630dp"
+            android:layout_centerInParent="true"
+
+            android:background="@drawable/relativelayoutcustom">
+
+            <Button
+                android:id="@+id/buttonUsuario"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonalterperfil"
+                android:text="Usuário" />
+
+            <Button
+                android:id="@+id/buttonGrupo"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonalterperfil"
+                android:text="Grupo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+
+                android:text="Mais conhecidos"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="160dp"
+
+                android:text="Jorge Amado"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+
+                android:layout_width="72dp"
+                android:layout_height="58dp"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/ic_usuarios_box"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+
+                android:background="#1E9565">
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
