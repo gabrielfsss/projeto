@@ -24,35 +24,18 @@
 
             android:background="@drawable/relativelayoutcustom">
 
-            <Button
-                android:id="@+id/buttonUsuario"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="50dp"
-
-                android:layout_marginTop="15dp"
-                android:background="@drawable/buttonalterperfil"
-                android:text="Usuário" />
-
-            <Button
-                android:id="@+id/buttonGrupo"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="200dp"
-
-                android:layout_marginTop="15dp"
-                android:background="@drawable/buttonalterperfil"
-                android:text="Grupo" />
-
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textClassificados"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="90dp"
 
                 android:text="Mais conhecidos"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:typeface="normal"
+                />
 
             <TextView
                 android:id="@+id/textView5"
@@ -60,10 +43,12 @@
                 android:layout_height="wrap_content"
 
                 android:layout_marginLeft="120dp"
-                android:layout_marginTop="160dp"
+                android:layout_marginTop="163dp"
 
                 android:text="Jorge Amado"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:typeface="normal"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -81,6 +66,33 @@
 
                 android:background="#1E9565">
 
+                <Button
+                    android:id="@+id/buttonGrupo"
+
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="12dp"
+
+                    android:background="@drawable/buttonalterperfil"
+                    android:text="Grupo" />
+
+                <Button
+                    android:id="@+id/buttonUsuario"
+
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+
+                    android:background="@drawable/buttonalterperfil"
+
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="12dp"
+
+                    android:text="Usuário"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:typeface="normal"/>
             </RelativeLayout>
 
 
