@@ -9,7 +9,7 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="316dp"
+        android:layout_height="315dp"
 
         android:background="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
