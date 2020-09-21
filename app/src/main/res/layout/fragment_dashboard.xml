@@ -44,7 +44,7 @@
                         android:src="@drawable/pessoasjogandobola" />
 
                     <ImageView
-                        android:id="@+id/imagemLinhaPreta"
+                        android:id="@+id/imagemLinhaPreta01"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil01"
@@ -52,7 +52,7 @@
                         android:src="@drawable/linhapretacomentarios" />
 
                     <TextView
-                        android:id="@+id/textViewNomeUsuario"
+                        android:id="@+id/textViewNomeUsuario01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
@@ -62,26 +62,29 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textViewGrupo"
+                        android:id="@+id/textView_Grupo01"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/textViewNomeUsuario"
-                        android:layout_marginLeft="80dp"
 
+                        android:layout_below="@+id/textViewNomeUsuario01"
+                        android:layout_marginLeft="80dp"
                         android:layout_marginTop="5dp"
+
                         android:text="ajudantes de Manaus"
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/textViewComentarios"
+                        android:id="@+id/textView_Comentarios01"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/imagemPerfil01"
-                        android:layout_centerHorizontal="true"
 
-                        android:layout_marginTop="22dp"
-                        android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="240dp"
+
+                        android:text="Comentários"
+                        android:textSize="16sp"
+                        />
 
                     <ImageView
                         android:id="@+id/imagem_deslike01"
@@ -100,7 +103,7 @@
                         android:layout_width="35dp"
                         android:layout_height="30dp"
 
-                        android:layout_marginLeft="245dp"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="235dp"
 
                         android:src="@drawable/compartilhar" />
@@ -145,7 +148,7 @@
                         android:src="@drawable/pessoasjogandobola" />
 
                     <ImageView
-                        android:id="@+id/imagemLinhaPreta"
+                        android:id="@+id/imagemLinhaPreta02"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil02"
@@ -153,7 +156,7 @@
                         android:src="@drawable/linhapretacomentarios" />
 
                     <TextView
-                        android:id="@+id/textViewNomeUsuario"
+                        android:id="@+id/textViewNomeUsuario02"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
@@ -163,10 +166,10 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textViewGrupo"
+                        android:id="@+id/textViewGrupo02"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/textViewNomeUsuario"
+                        android:layout_below="@+id/textViewNomeUsuario02"
                         android:layout_marginLeft="80dp"
 
                         android:layout_marginTop="5dp"
@@ -174,15 +177,17 @@
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/textViewComentarios"
+                        android:id="@+id/textView_Comentarios02"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/imagemPerfil02"
-                        android:layout_centerHorizontal="true"
 
-                        android:layout_marginTop="22dp"
-                        android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="240dp"
+
+                        android:text="Comentários"
+                        android:textSize="16sp"
+                        />
 
                     <ImageView
                         android:id="@+id/imagem_like02"
@@ -214,7 +219,7 @@
                         android:layout_width="35dp"
                         android:layout_height="30dp"
 
-                        android:layout_marginLeft="245dp"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="235dp"
 
                         android:src="@drawable/compartilhar" />
@@ -248,7 +253,7 @@
                         android:src="@drawable/pessoasjogandobola" />
 
                     <ImageView
-                        android:id="@+id/imagemLinhaPreta"
+                        android:id="@+id/imagemLinhaPreta03"
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil03"
@@ -256,7 +261,7 @@
                         android:src="@drawable/linhapretacomentarios" />
 
                     <TextView
-                        android:id="@+id/textViewNomeUsuario"
+                        android:id="@+id/textViewNomeUsuario03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="80dp"
@@ -266,10 +271,10 @@
                         android:textSize="16sp" />
 
                     <TextView
-                        android:id="@+id/textViewGrupo"
+                        android:id="@+id/textViewGrupo03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/textViewNomeUsuario"
+                        android:layout_below="@+id/textViewNomeUsuario03"
                         android:layout_marginLeft="80dp"
 
                         android:layout_marginTop="5dp"
@@ -288,15 +293,17 @@
                         android:src="@drawable/like" />
 
                     <TextView
-                        android:id="@+id/textViewComentarios"
+                        android:id="@+id/textView_Comentarios03"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/imagemPerfil03"
-                        android:layout_centerHorizontal="true"
 
-                        android:layout_marginTop="22dp"
-                        android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="240dp"
+
+                        android:text="Comentários"
+                        android:textSize="16sp"
+                        />
 
                     <ImageView
                         android:id="@+id/imagem_deslike03"
@@ -315,7 +322,7 @@
                         android:layout_width="35dp"
                         android:layout_height="30dp"
 
-                        android:layout_marginLeft="245dp"
+                        android:layout_marginLeft="230dp"
                         android:layout_marginTop="235dp"
 
                         android:src="@drawable/compartilhar" />
