@@ -32,12 +32,12 @@
         <ImageView
             android:id="@+id/imageViewCadastro"
 
-            android:layout_width="150dp"
-            android:layout_height="100dp"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="75dp"
 
-            app:srcCompat="@drawable/interrogacaoicon" />
+            app:srcCompat="@mipmap/ic_logoprojeto" />
 
         <EditText
 
@@ -48,7 +48,7 @@
 
                 android:layout_below="@+id/imageViewCadastro"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="220dp"
+                android:layout_marginTop="120dp"
 
                 android:background="@drawable/customedittext"
                 android:drawableLeft="@drawable/ic_usuario_custom"
@@ -141,6 +141,18 @@
             android:text="Entrar"
             android:textColor="#3F4743"
             android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageViewCadastro"
+            android:layout_marginTop="35dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
 
     </RelativeLayout>
 
