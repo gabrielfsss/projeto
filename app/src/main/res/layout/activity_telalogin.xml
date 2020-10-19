@@ -26,6 +26,16 @@
 
         </RelativeLayout>
 
+        <ImageView
+            android:id="@+id/ImageLogo"
+
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+
+            app:srcCompat="@mipmap/ic_logo" />
+
         <TextView
             android:id="@+id/textLogin"
 
@@ -42,15 +52,7 @@
             android:textColor="#477158"
             android:textStyle="bold"/>
 
-        <ImageView
-            android:id="@+id/ImageLogo"
 
-            android:layout_width="250dp"
-            android:layout_height="200dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="45dp"
-
-            app:srcCompat="@mipmap/ic_logo" />
 
         <EditText
             android:id="@+id/editTextNome"
