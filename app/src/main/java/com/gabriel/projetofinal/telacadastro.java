@@ -18,7 +18,7 @@ public class telacadastro extends AppCompatActivity {
 
         botaoCadastro = (Button) findViewById(R.id.botaoCadastro);
 
-        botaoCadastro.setOnClickListener (new View.OnClickListener() {
+        botaoCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(telacadastro.this, MainActivity.class);
