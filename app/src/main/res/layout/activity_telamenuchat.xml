@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telamenuchat">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+
+            <RelativeLayout
+                android:id="@+id/relativePerfil"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:layout_marginTop="60dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil01"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil01"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil01"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil02"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil02"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil02"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil03"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil03"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil03"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil04"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil04"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil04"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil05"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil05"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil05"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil06"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil06"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil06"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil07"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil07"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil07"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/imagePerfil08"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginLeft="30dp"
+
+                    app:srcCompat="@drawable/fotoperfil01" />
+
+                <TextView
+                    android:id="@+id/nomePerfil06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil08"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/previewmensage06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_toRightOf="@id/imagePerfil08"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telachat"
+    android:background="#363636"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextTexto"
+
+        android:layout_width="412dp"
+        android:layout_height="40dp"
+
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="100dp"
+        android:paddingLeft="100dp"
+
+        android:hint="Digite algo!"
+        android:textColorHint="#DCDCDC"
+
+        android:layout_alignParentBottom="true"
+
+        android:background="#1C1C1C"
+        android:textColor="#DCDCDC"
+
+        android:drawablePadding="40dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="690dp"
+
+        app:srcCompat="@mipmap/ic_addfoto" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+
+        android:background="#1C1C1C">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            app:srcCompat="@drawable/ic_advertencia"
+            tools:ignore="VectorDrawableCompat"
+
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textNamePerfilChat"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="100dp"
+            android:layout_centerVertical="true"
+
+            android:text="TextView"
+            android:textColor="@color/colorAccent"/>
+
+        <ImageView
+            android:id="@+id/imagePerfilChat"
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20dp"
+
+            app:srcCompat="@drawable/fotoperfil01"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="690dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+
+                android:layout_marginTop="40dp">
+
+                <TextView
+                android:id="@+id/textchat01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="TextView"
+                    android:background="@color/colorAccent" />
+
+
+                <TextView
+                    android:id="@+id/textchat02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_below="@+id/textchat01"
+                    android:layout_marginTop="200dp"
+
+                    android:background="@color/colorAccent"/>
+
+                <TextView
+                android:id="@+id/textchat03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+
+                android:layout_below="@+id/textchat02"
+                android:layout_marginTop="200dp"
+
+                android:background="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/textchat04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_below="@+id/textchat03"
+                    android:layout_marginTop="200dp"
+
+                    android:background="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/textchat05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+
+                    android:layout_below="@+id/textchat04"
+                    android:layout_marginTop="200dp"
+
+                    android:background="@color/colorAccent"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
