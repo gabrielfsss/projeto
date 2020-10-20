@@ -59,7 +59,8 @@
                         android:layout_marginTop="10dp"
 
                         android:text="Jorge Amado"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/textViewGrupo01"
@@ -74,46 +75,56 @@
 
                     <TextView
                         android:id="@+id/textViewComentarios01"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/imagemPerfil01"
-                        android:layout_centerHorizontal="true"
 
-                        android:layout_marginTop="22dp"
+                        android:layout_below="@+id/imagemPerfil01"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+
                         android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
 
                     <ImageView
                         android:id="@+id/imagem_deslike01"
+
                         android:layout_width="35dp"
-                        android:layout_height="335dp"
+                        android:layout_height="30dp"
 
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="235dp"
+                        android:layout_marginTop="237dp"
+
                         android:src="@drawable/deslike" />
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar01"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/imagemPerfil01"
 
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+
+                        android:layout_below="@id/imagemPerfil01"
                         android:layout_marginLeft="255dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="17dp"
+
                         android:src="@drawable/compartilhar" />
 
                     <ImageView
                         android:id="@+id/imagem_usuario01"
+
                         android:layout_width="72dp"
-                        android:layout_height="58dp"
+                        android:layout_height="68dp"
+
                         android:src="@drawable/ic_usuarios_box"
+
                         android:layout_marginTop="5dp"
                         android:layout_marginLeft="10dp"/>
 
                     <ImageView
                         android:id="@+id/imagem_like01"
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
 
                         android:layout_marginTop="235dp"
                         android:layout_marginLeft="15dp"
@@ -156,7 +167,8 @@
                         android:layout_marginTop="10dp"
 
                         android:text="Jorge Amado"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/textViewGrupo02"
@@ -164,21 +176,23 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textViewNomeUsuario02"
                         android:layout_marginLeft="80dp"
-
                         android:layout_marginTop="5dp"
+
                         android:text="ajudantes de Manaus"
                         android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/textViewComentarios02"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/imagemPerfil02"
-                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
 
-                        android:layout_marginTop="22dp"
                         android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
 
                     <ImageView
                         android:id="@+id/imagem_like02"
@@ -192,30 +206,37 @@
 
                     <ImageView
                         android:id="@+id/imagem_deslike02"
+
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
 
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="235dp"
+                        android:layout_marginTop="237dp"
+
                         android:src="@drawable/deslike" />
 
 
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar02"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/imagemPerfil02"
 
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+
+                        android:layout_below="@id/imagemPerfil02"
                         android:layout_marginLeft="255dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="17dp"
+
                         android:src="@drawable/compartilhar" />
 
                     <ImageView
                         android:id="@+id/imagem_usuario02"
+
                         android:layout_width="72dp"
-                        android:layout_height="58dp"
+                        android:layout_height="68dp"
+
                         android:src="@drawable/ic_usuarios_box"
+
                         android:layout_marginTop="5dp"
                         android:layout_marginLeft="10dp"/>
 
@@ -255,7 +276,8 @@
                         android:layout_marginTop="10dp"
 
                         android:text="Jorge Amado"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/textViewGrupo"
@@ -280,39 +302,154 @@
 
                     <TextView
                         android:id="@+id/textViewComentarios03"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/imagemPerfil03"
-                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
 
-                        android:layout_marginTop="22dp"
                         android:text="Comentarios"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"
+                        android:textColor="#000000" />
 
                     <ImageView
                         android:id="@+id/imagem_deslike03"
+
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
 
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="235dp"
+                        android:layout_marginTop="237dp"
+
                         android:src="@drawable/deslike"/>
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar03"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@id/imagemPerfil03"
 
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+
+                        android:layout_below="@id/imagemPerfil03"
                         android:layout_marginLeft="255dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="17dp"
+
                         android:src="@drawable/compartilhar" />
 
                     <ImageView
                         android:id="@+id/imagem_usuario03"
+
                         android:layout_width="72dp"
-                        android:layout_height="58dp"
+                        android:layout_height="68dp"
+
                         android:src="@drawable/ic_usuarios_box"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="272dp"
+
+                    android:layout_marginLeft="55dp"
+
+                    android:layout_marginTop="60dp"
+                    android:background="#169F5B">
+
+                    <ImageView
+                        android:id="@+id/imagemPerfil04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+
+                        android:layout_marginTop="70dp"
+                        android:src="@drawable/pessoasjogandobola" />
+
+                    <ImageView
+                        android:id="@+id/imagemLinhaPreta04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/imagemPerfil04"
+
+                        android:src="@drawable/linhapretacomentarios" />
+
+                    <TextView
+                        android:id="@+id/textViewNomeUsuario04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="10dp"
+
+                        android:text="Jorge Amado"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/textViewGrupo04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textViewNomeUsuario04"
+                        android:layout_marginLeft="80dp"
+
+                        android:layout_marginTop="5dp"
+                        android:text="ajudantes de Manaus"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/imagem_like04"
+                        android:layout_width="35dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="235dp"
+                        android:layout_marginLeft="15dp"
+
+                        android:src="@drawable/like" />
+
+                    <TextView
+                        android:id="@+id/textViewComentarios04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imagemPerfil04"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="20dp"
+
+                        android:text="Comentarios"
+                        android:textSize="15sp"
+                        android:textColor="#000000" />
+
+                    <ImageView
+                        android:id="@+id/imagem_deslike04"
+
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+
+                        android:layout_marginLeft="55dp"
+                        android:layout_marginTop="237dp"
+
+                        android:src="@drawable/deslike"/>
+
+                    <ImageView
+                        android:id="@+id/imagem_compartilhar04"
+
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+
+                        android:layout_below="@id/imagemPerfil04"
+                        android:layout_marginLeft="255dp"
+                        android:layout_marginTop="17dp"
+
+                        android:src="@drawable/compartilhar" />
+
+                    <ImageView
+                        android:id="@+id/imagem_usuario04"
+
+                        android:layout_width="72dp"
+                        android:layout_height="68dp"
+
+                        android:src="@drawable/ic_usuarios_box"
+
                         android:layout_marginTop="5dp"
                         android:layout_marginLeft="10dp"/>
 

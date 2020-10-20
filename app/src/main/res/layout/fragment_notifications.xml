@@ -24,6 +24,17 @@
 
             android:background="@drawable/relativelayoutcustom">
 
+            <ImageView
+                android:id="@+id/imagePerfilPesq"
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:src="@drawable/ic_usuarios_box"
+                android:layout_marginTop="145dp"
+                android:layout_marginLeft="30dp"
+                />
+
             <Button
                 android:id="@+id/buttonUsuario"
                 android:layout_width="100dp"
@@ -46,32 +57,28 @@
 
             <TextView
                 android:id="@+id/textView4"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="90dp"
 
                 android:text="Mais conhecidos"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
+
+                android:layout_centerHorizontal="true"
                 android:layout_marginTop="155dp"
 
                 android:text="Jorge Amado"
-                android:textSize="20dp" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="150dp"
-                android:src="@drawable/usuariopesq" />
+                android:textSize="20dp"
+                android:textColor="#000000"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
