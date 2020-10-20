@@ -17,8 +17,8 @@
 
         android:ems="10"
         android:inputType="text"
-        android:paddingStart="100dp"
-        android:paddingLeft="100dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
 
         android:hint="Digite algo!"
         android:textColorHint="#DCDCDC"
@@ -28,19 +28,10 @@
         android:background="#1C1C1C"
         android:textColor="#DCDCDC"
 
+        android:drawableLeft="@mipmap/ic_addfotochat"
         android:drawablePadding="40dp"
 
         />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="690dp"
-
-        app:srcCompat="@mipmap/ic_addfotochat" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -88,7 +79,8 @@
 
             android:layout_marginLeft="20dp"
 
-            app:srcCompat="@drawable/fotoperfil01"/>
+            app:srcCompat="@mipmap/ic_addfotochatperfil"/>
+
     </RelativeLayout>
 
     <ScrollView
