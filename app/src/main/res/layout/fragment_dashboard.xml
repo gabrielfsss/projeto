@@ -51,31 +51,18 @@
 
         <Button
             android:id="@+id/buttonAlterPerfil"
-            android:layout_width="wrap_content"
+
+            android:layout_width="125dp"
             android:layout_height="wrap_content"
 
             android:layout_below="@+id/textViewNome"
 
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
             android:background="@drawable/buttonalterperfil"
 
             android:text="Alterar Perfil"
-            android:textSize="14sp" />
 
-        <Button
-            android:id="@+id/buttonMapa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_below="@+id/textViewNome"
-
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="30dp"
-            android:background="@drawable/buttonalterperfil"
-
-            android:text="Pontos de coleta"
             android:textSize="12sp" />
 
         <ImageView
@@ -84,13 +71,13 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
 
-            android:src="@mipmap/ic_chat"
-
             android:layout_alignParentRight="true"
 
             android:layout_marginTop="20dp"
+
             android:layout_marginRight="20dp"
-            />
+
+            android:src="@mipmap/ic_chat" />
 
 
     </RelativeLayout>

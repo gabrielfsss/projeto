@@ -18,19 +18,17 @@ import androidx.lifecycle.ViewModelProviders;
 import com.gabriel.projetofinal.MainActivity;
 import com.gabriel.projetofinal.R;
 import com.gabriel.projetofinal.telacadastro;
+import com.gabriel.projetofinal.ui.home.HomeViewModel;
 
 public class DashboardFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
     private ImageView icon_chat;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel = ViewModelProviders.of(this).get(DashboardViewModel.class);
+    public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+
 
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
 
         return root;
-
     }
 }

@@ -45,7 +45,8 @@
 
                     <ImageView
                         android:id="@+id/imagemLinhaPreta01"
-                        android:layout_width="wrap_content"
+
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil01"
 
@@ -91,12 +92,12 @@
                         android:id="@+id/imagem_deslike01"
 
                         android:layout_width="35dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
 
+                        android:layout_marginTop="235dp"
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="237dp"
 
-                        android:src="@drawable/deslike" />
+                        android:src="@drawable/ic_dislikeface_custom" />
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar01"
@@ -123,13 +124,15 @@
 
                     <ImageView
                         android:id="@+id/imagem_like01"
+
                         android:layout_width="35dp"
                         android:layout_height="35dp"
 
                         android:layout_marginTop="235dp"
                         android:layout_marginLeft="15dp"
 
-                        android:src="@drawable/like" />
+
+                        android:src="@drawable/ic_likeface_custom" />
 
                 </RelativeLayout>
 
@@ -153,7 +156,8 @@
 
                     <ImageView
                         android:id="@+id/imagemLinhaPreta02"
-                        android:layout_width="wrap_content"
+
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil02"
 
@@ -196,24 +200,26 @@
 
                     <ImageView
                         android:id="@+id/imagem_like02"
+
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
 
                         android:layout_marginTop="235dp"
                         android:layout_marginLeft="15dp"
 
-                        android:src="@drawable/like" />
+
+                        android:src="@drawable/ic_likeface_custom" />
 
                     <ImageView
                         android:id="@+id/imagem_deslike02"
 
                         android:layout_width="35dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
 
+                        android:layout_marginTop="235dp"
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="237dp"
 
-                        android:src="@drawable/deslike" />
+                        android:src="@drawable/ic_dislikeface_custom" />
 
 
 
@@ -262,7 +268,8 @@
 
                     <ImageView
                         android:id="@+id/imagemLinhaPreta"
-                        android:layout_width="wrap_content"
+
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil03"
 
@@ -292,13 +299,15 @@
 
                     <ImageView
                         android:id="@+id/imagem_like03"
+
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
 
                         android:layout_marginTop="235dp"
                         android:layout_marginLeft="15dp"
 
-                        android:src="@drawable/like" />
+
+                        android:src="@drawable/ic_likeface_custom" />
 
                     <TextView
                         android:id="@+id/textViewComentarios03"
@@ -317,12 +326,12 @@
                         android:id="@+id/imagem_deslike03"
 
                         android:layout_width="35dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
 
+                        android:layout_marginTop="235dp"
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="237dp"
 
-                        android:src="@drawable/deslike"/>
+                        android:src="@drawable/ic_dislikeface_custom"/>
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar03"
@@ -369,7 +378,8 @@
 
                     <ImageView
                         android:id="@+id/imagemLinhaPreta04"
-                        android:layout_width="wrap_content"
+
+                        android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:layout_below="@+id/imagemPerfil04"
 
@@ -399,13 +409,15 @@
 
                     <ImageView
                         android:id="@+id/imagem_like04"
+
                         android:layout_width="35dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="35dp"
 
                         android:layout_marginTop="235dp"
                         android:layout_marginLeft="15dp"
 
-                        android:src="@drawable/like" />
+
+                        android:src="@drawable/ic_likeface_custom" />
 
                     <TextView
                         android:id="@+id/textViewComentarios04"
@@ -423,12 +435,12 @@
                         android:id="@+id/imagem_deslike04"
 
                         android:layout_width="35dp"
-                        android:layout_height="30dp"
+                        android:layout_height="35dp"
 
+                        android:layout_marginTop="235dp"
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="237dp"
 
-                        android:src="@drawable/deslike"/>
+                        android:src="@drawable/ic_dislikeface_custom"/>
 
                     <ImageView
                         android:id="@+id/imagem_compartilhar04"
