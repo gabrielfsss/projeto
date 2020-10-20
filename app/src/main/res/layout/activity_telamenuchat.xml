@@ -11,7 +11,8 @@
         android:layout_width="409dp"
         android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,9 +23,7 @@
             <RelativeLayout
                 android:id="@+id/relativePerfil"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-
-                android:layout_marginTop="60dp">
+                android:layout_height="100dp">
 
                 <ImageView
                     android:id="@+id/imagePerfil01"
@@ -38,9 +37,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil01"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil01"
 
@@ -77,9 +82,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil02"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil02"
 
@@ -116,9 +127,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil03"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil03"
 
@@ -154,9 +171,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil04"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil04"
 
@@ -192,9 +215,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil05"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil05"
 
@@ -231,9 +260,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil07"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil06"
 
@@ -270,9 +305,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil08"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil07"
 
@@ -309,9 +350,15 @@
 
                 <TextView
                     android:id="@+id/nomePerfil06"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+
+                    android:text="Jorge Araújo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
 
                     android:layout_toRightOf="@id/imagePerfil08"
 
