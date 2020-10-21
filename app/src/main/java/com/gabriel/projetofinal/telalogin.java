@@ -13,7 +13,6 @@ public class telalogin extends AppCompatActivity {
 
     Button botaoLogin;
     TextView textCadastro;
-    ImageView ImageLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,17 +38,5 @@ public class telalogin extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-        ImageLogo = (ImageView) findViewById(R.id.ImageLogo);
-
-        ImageLogo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(telalogin.this, telamenuchat.class);
-                startActivity(i);
-            }
-        });
-
-
     }
 }
