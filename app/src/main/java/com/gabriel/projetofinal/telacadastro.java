@@ -15,6 +15,7 @@ public class telacadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_telacadastro);
+        getSupportActionBar().hide();
 
         botaoCadastro = (Button) findViewById(R.id.botaoCadastro);
 
